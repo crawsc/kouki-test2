@@ -8,7 +8,8 @@ gem 'rails', '~> 6.0.3', '>= 6.0.3.2'
 # Use sqlite3 as the database for Active Record
 #gem 'sqlite3', '~> 1.4'
 group :development, :test do
-  gem 'postgressql' #do ~ end内部に追加。他のgemは残してください。
+  gem 'sqlite3'
+  gem 'postgresql' #do ~ end内部に追加。他のgemは残してください。
 group :production do
   gem 'pg'
 end

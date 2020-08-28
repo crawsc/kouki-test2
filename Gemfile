@@ -12,7 +12,7 @@ group :development, :test do
   gem 'postgresql' #do ~ end内部に追加。他のgemは残してください。
 end
 group :production do
-  gem 'pg'
+  gem 'pg','~> 1.2.3'
 end
   # Use Puma as the app server
 gem 'puma', '~> 4.1'

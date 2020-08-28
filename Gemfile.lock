@@ -199,6 +199,7 @@ DEPENDENCIES
   sass-rails (>= 6)
   selenium-webdriver
   sqlite3 (~> 1.4)
+  postglesql(~> 1.2)
   turbolinks (~> 5)
   tzinfo-data
   web-console (>= 3.3.0)

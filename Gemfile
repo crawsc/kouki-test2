@@ -12,7 +12,7 @@ group :development, :test do
   gem 'postgresql' #do ~ end内部に追加。他のgemは残してください。
 end
 group :production do
-  gem 'pg'
+  gem 'pg','0.20.0' 
 end
   # Use Puma as the app server
 gem 'puma', '~> 4.1'
@@ -54,4 +54,4 @@ group :test do
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+#gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
